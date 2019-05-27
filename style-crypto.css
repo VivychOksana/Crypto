@@ -1,0 +1,442 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+display: block;
+width: 100%;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 37px;
+letter-spacing: 0.02em;
+}
+
+header {
+background-image: url(img/backimg.png);
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+padding-top: 100%;
+}
+	
+.logo_img {
+width: 59px;
+height: 32px;
+position: absolute;
+left: 80px;
+top: 42px;
+}
+	
+.logo_message {
+position: absolute;
+width: 60px;
+height: 31px;
+left: 80px;
+top: 74px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+color: #fff;
+}
+	
+.menu {
+position: absolute;
+top: 59px;
+right: 60px;
+color: white;
+font-size: 18px;
+font-weight: 600;
+box-sizing: border-box;
+}
+	
+.menu ul {
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+	
+.menu ul li {
+padding-right: 54px;
+display: list-item;
+text-align: -webkit-match-parent;
+}
+	
+li .menu_a{
+text-decoration: none;
+color: #fff;
+}
+	
+ul li .last {
+background: #FDFFFC;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+text-align: center;
+padding-right: 0;
+font-size: 18px;
+width: 90px;
+height: 30px;
+border-radius: 4px;
+border: 0 solid;
+transform: translateY(-5px);
+}
+	
+nav ul li:last-child a {
+color: #000;
+font-size: 18px;
+}
+
+.buy {
+position: absolute;
+top: 150px;
+left: 80px;
+width: 870px;
+height: 59px;
+font-weight: 800;
+font-size: 47px;
+line-height: 102px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+	
+.crypto-text {
+position: absolute;
+width: 580px;
+height: 180px;
+top: 270px;
+left: 80px;
+font-weight: 500;
+font-size: 36px;
+line-height: 74px;
+letter-spacing: 0.02em;
+color: #FFF;
+}
+
+.welcome_to_crypto {
+width: 100%;
+display: inline-block;
+text-align: center;
+margin-bottom: 200px;
+}
+	
+.welcome {
+text-align: center;
+margin-bottom: 50px;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 33px;
+color: #333;
+}
+	
+.lorem {
+width: 73%;
+font-family: "Nunito", "sans-sarif";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 44px;
+letter-spacing: 0.05em;
+color: #333;
+margin:0 auto;
+}
+	
+.crypto-products {
+display: flex;
+height: 560px;
+}
+	
+.crypto-products-first {
+display: flex;
+flex-direction: column;
+margin-right: 50px;
+}
+
+.crypto-products-bg {
+position: absolute;
+margin-left: 115px;
+width: 360px;
+height: 380px;
+background-image: url("data:image/svg+xml,%3Csvg width='14px' height='15px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Ccircle cx='11' cy='11' r='3' fill='%23C4C4C4'%3E%3C/circle%3E%3C/svg%3E");
+z-index: 1;
+}
+	
+.crypto-products-h3 {
+position: relative;
+margin-left: 165px;
+padding-bottom: 102px;
+width: 530px;
+font-family: "Nunito", "sans-sarif";
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 68px;
+color: #076572;
+letter-spacing: 0.07em;
+z-index: 2;
+}
+	
+.view-mor {
+position: relative;
+margin-left: 165px;
+font-weight: 600;
+line-height: 33px;
+font-size: 24px;
+color: #333;
+text-decoration: none;
+z-index: 2;
+}
+	
+.crypto-products-second {
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+position: relative;
+}
+	
+.crypto_bag {
+position: absolute;
+}
+	
+.gold_diger {
+position: absolute;
+left: 245px;
+top: 125px;
+z-index: 3;
+}
+
+.grafical {
+display: flex;
+height: 510px;
+}
+	
+.first_grafical {
+position: relative;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+z-index: 2;
+}
+	
+.grafic {
+position: absolute;
+top: 65px;
+left: 139px;
+}
+	
+.second_grafical {
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+position: relative;
+}
+	
+.see {
+position: absolute;
+color: #076572;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 68px;
+align-items: center;
+}
+	
+.some_lorem {
+position: absolute;
+top: 290px;
+left: 0px;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 37px;
+color: #333;
+text-align: left;
+}
+	
+.mor_some {
+font-weight: 600;
+line-height: 33px;
+font-size: 24px;
+color: #333;
+position: absolute;
+top: 420px;
+left: 0px;
+text-decoration: none;
+}
+
+.manage_block {
+display: flex;
+height: 510px;
+padding-top: 200px;
+}
+	
+.manage_first {
+position: relative;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+}
+	
+.manage_h3 {
+position: relative;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+left: 142px;
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 68px;
+color: #076572;
+	}
+	
+.man_p {
+position: relative;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+left: 142px;
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 29px;
+letter-spacing: 0.1em;
+color: #282D32;
+padding-bottom: 120px;
+padding-top: 46px;
+z-index: 2;
+}
+	
+.mor_again {
+position: relative;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+left: 142px;
+font-weight: 600;
+line-height: 33px;
+font-size: 24px;
+color: #333;
+text-decoration: none;
+}
+	
+.manage_second {
+position: relative;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+}
+
+.crypto-products-bg-mony {
+position: absolute;
+margin-top: 65px;
+margin-left: -150px;
+width: 360px;
+height: 380px;
+background-image: url("data:image/svg+xml,%3Csvg width='14px' height='15px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 22'%3E%3Ccircle cx='11' cy='11' r='3' fill='%23C4C4C4'%3E%3C/circle%3E%3C/svg%3E");
+z-index: 1;
+}
+	
+.money{
+position: relative;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+}
+	
+.monay_img{
+position: relative;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 300px;
+z-index: 2;
+}
+
+.footer{
+background: #30292F;
+padding: 62px 100px 35px 152px;
+margin-top: 200px;
+}
+
+.contact_footer {
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+padding-bottom: 19px;
+border-bottom: 1px solid rgba(218, 218, 218, 0.42);
+}
+
+.address > div:first-child {
+font-family: Avenir;
+font-size: 18px;
+line-height: 25px;
+margin-bottom: 10px;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.address > div:last-child {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 33px;
+letter-spacing: 0.02em;
+color: #FFF;
+}
+
+.input-email-text {
+font-family: Avenir;
+font-size: 14px;
+line-height: 16px;
+color: rgba(62, 61, 61, 0.5);
+background: #FDFFFC;
+border: none;
+padding: 15px 40px 15px 20px;
+}
+
+.input-email-push {
+border: none;
+padding: 13px 25px 14px 20px;
+margin-left: -6px;
+background: #1768AC;
+font-size: 16px;
+line-height: 19px;
+color: #FFF;  
+}
+
+legend {
+font-family: Avenir;
+font-size: 18px;
+line-height: 21px;
+margin-bottom: 15px;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.info {
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+}
+
+.info > div > a {
+text-decoration: none;
+font-family: Avenir;
+font-size: 16px;
+line-height: 19px;
+color: rgba(255, 255, 255, 0.7);
+}
+
+.info > div:first-child > a {
+margin-right: 15px;
+}
+
+.info > div:last-child > a {
+margin-left: 15px;
+}
